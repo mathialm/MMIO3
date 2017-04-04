@@ -37,10 +37,6 @@ public class Main extends Application {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("REGISTER USER");
-		Registration register = new Registration();
-		register.registerUser();
-		
 		launch(args);
 	}
 }
