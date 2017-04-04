@@ -2,12 +2,12 @@ package application;
 	
 import java.io.FileNotFoundException;
 
+import application.login.Login;
+import application.login.Registration;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
-import login.Login;
-import login.Registration;
 
 
 public class Main extends Application {
