@@ -1,5 +1,5 @@
 package application;
 
-public class LogInPage {
+public class Master {
 
 }
