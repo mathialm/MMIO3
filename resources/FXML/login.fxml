@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="86.0" layoutY="188.0" prefWidth="152.0" />
+      <TextField layoutX="86.0" layoutY="253.0" prefHeight="25.0" prefWidth="152.0" />
+      <Label layoutX="86.0" layoutY="163.0" text="E-post">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="228.0" text="Passord">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="86.0" layoutY="308.0" mnemonicParsing="false" text="Logg inn" />
+      <Pane depthTest="ENABLE" prefHeight="128.0" prefWidth="320.0">
+         <children>
+            <Label layoutX="88.0" layoutY="35.0" text="&lt;Logo&gt;">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Separator layoutY="127.0" prefWidth="320.0" />
+      <Button layoutX="152.0" layoutY="308.0" mnemonicParsing="false" text="Registrer deg" />
+   </children>
+</Pane>
