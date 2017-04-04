@@ -2,9 +2,9 @@ package javaFX.controllers;
 
 import java.io.FileNotFoundException;
 
-import application.Login;
 import application.Main;
-import application.Registration;
+import application.login.Login;
+import application.login.Registration;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;

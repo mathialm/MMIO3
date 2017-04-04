@@ -1,4 +1,4 @@
-package application;
+package application.login;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -22,6 +22,7 @@ public class Login {
 			if(username.equals(scannedUsername)) {
 				if(password.equals(scannedPassword)) {
 					feedback = "Successfully logged in!";
+					User.setUsername(username);
 					notFound = false;
 					return true;
 				} else {
