@@ -6,16 +6,12 @@ import java.util.Scanner;
 
 public class Login {
 	
-	Scanner scanner = new Scanner(System.in);
-	Boolean notFound = true;
+	private Scanner scanner = new Scanner(System.in);
+	private Boolean notFound = true;
+	public static String feedback = null;
 	
-	public void logIn() throws FileNotFoundException {
+	public boolean logIn(String username, String password) throws FileNotFoundException {
 		Scanner scan = new Scanner(new File("resources/users.txt"));
-		
-		System.out.println("Enter username: ");
-		String username = scanner.next();
-		System.out.println("Enter password: ");
-		String password = scanner.next();
 		
 		while(scan.hasNextLine() && notFound) {
 			String search = scan.nextLine();
@@ -25,19 +21,21 @@ public class Login {
 
 			if(username.equals(scannedUsername)) {
 				if(password.equals(scannedPassword)) {
-					System.out.println("Successfully logged in!");
+					feedback = "Successfully logged in!";
 					notFound = false;
-					break;
+					return true;
 				} else {
-					System.out.println("Wrong password.");
+					feedback = "Wrong password.";
 					notFound = false;
-					break;
+					return false;
 				}
 			}
 		}
 		
 		if (notFound) {
-			System.out.println("User does not exist.");
+			feedback = "User does not exist.";
 		}
+		
+		return false;
 	}
 }

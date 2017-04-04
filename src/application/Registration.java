@@ -32,7 +32,6 @@ public class Registration {
 			fos.close();
 			
 			System.out.println("Successfully registered!\n");
-			goToLogin();
 		} catch (IOException e) {
 			e.printStackTrace();
 		} finally {
@@ -44,11 +43,5 @@ public class Registration {
 				e.printStackTrace();
 			}
 		}
-	}
-	
-	public void goToLogin() throws FileNotFoundException {
-		System.out.println("LOGIN\n");
-		Login login = new Login();
-		login.logIn();
 	}
 }
