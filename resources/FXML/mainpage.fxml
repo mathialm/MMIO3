@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TreeTableView layoutY="100.0" prefHeight="300.0" prefWidth="320.0">
+         <columns>
+            <TreeTableColumn text="Oppstart" />
+            <TreeTableColumn text="Slutt" />
+            <TreeTableColumn text="Fra" />
+            <TreeTableColumn text="Til" />
+         </columns>
+      </TreeTableView>
+      <Separator layoutY="60.0" prefWidth="320.0" />
+      <Label layoutX="117.0" layoutY="15.0" text="Appnavn">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="290.0" layoutY="15.0" text="&gt;">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="70.0" text="Konkurranser">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="134.0" text="Trondheim" />
+      <Label layoutX="107.0" layoutY="135.0" text="Bodø" />
+      <Label layoutX="172.0" layoutY="135.0" text="29.03.2017" />
+      <Label layoutX="252.0" layoutY="136.0" text="29.06.2017" />
+      <Label layoutX="252.0" layoutY="160.0" text="29.03.2018" />
+      <Label layoutX="172.0" layoutY="159.0" text="29.03.2017" />
+      <Label layoutX="92.0" layoutY="159.0" text="Kautokeino" />
+      <Label layoutX="13.0" layoutY="158.0" text="Trondheim" />
+   </children>
+</Pane>
