@@ -1,4 +1,4 @@
 # MMIO3
-MMI oppgave 2
+MMI oppgave 3
 
-Designøving 2 MMI
+Designøving 3 MMI
